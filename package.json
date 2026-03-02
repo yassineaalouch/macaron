@@ -1,0 +1,49 @@
+{
+  "name": "strass-shop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:3000": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.894.0",
+    "@aws-sdk/s3-request-presigner": "^3.975.0",
+    "@types/bcrypt": "^6.0.0",
+    "axios": "^1.12.2",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.542.0",
+    "mongoose": "^8.18.2",
+    "next": "^16.0.10",
+    "next-auth": "^5.0.0-beta.30",
+    "next-intl": "^4.3.9",
+    "nodemailer": "^7.0.11",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-slick": "^0.31.0",
+    "recharts": "^3.3.0",
+    "sharp": "^0.34.4",
+    "slick-carousel": "^1.8.1",
+    "sonner": "^2.0.7"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/nodemailer": "^7.0.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/react-slick": "^0.23.13",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9",
+    "eslint-config-next": "^16.0.10",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.13",
+    "typescript": "^5"
+  }
+}

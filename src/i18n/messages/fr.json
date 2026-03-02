@@ -1,0 +1,909 @@
+{
+  "HomePage": {
+    "title": "Découvrez nos accessoires de couture de qualité",
+    "description": "Fils, aiguilles, ciseaux et tout le nécessaire pour vos projets de couture. Livraison rapide et fiable.",
+    "Badge": "Qualité Premium • Livraison Rapide",
+    "sinceLabel": "L’art des douceurs depuis {year}",
+    "StatistiquesRapides": {
+      "Quality": "Qualité",
+      "Livraison": "Livraison",
+      "Products": "Produits"
+    },
+    "CategoriesSection": {
+      "title": "Nos Catégories",
+      "subtitle": "Découvrez notre gamme complète de couture et accessoires adaptés à tous vos besoins",
+      "productCount": "{count} produits"
+    },
+    "FeaturedProductsSection": {
+      "title": "Produits Populaires",
+      "subtitle": "Les produits les plus appréciés par nos clients"
+    }
+  },
+  "Header": {
+    "contact": {
+      "phone": "+212 670366581",
+      "email": "Denon_taha@hotmail.fr"
+    },
+    "freeShipping": "Livraison gratuite à partir de {threshold} DH",
+    "tagline": "Tout pour vos créations couture",
+    "cart": "Panier",
+    "navigation": {
+      "home": "Accueil",
+      "shop": "Boutique",
+      "packages": "Les packs",
+      "contact": "Contactez-nous"
+    },
+    "security": "Connexion sécurisée",
+    "sidebar": {
+      "contact": "Contact",
+      "language": "Langue"
+    }
+  },
+  "Footer": {
+    "company": {
+      "name": "Sweet Macarons",
+      "description": "Votre partenaire de confiance pour tous vos projets de couture au Maroc.",
+      "location": "Meknes, Maroc",
+      "phone": "+212 670366581",
+      "email": "Denon_taha@hotmail.fr"
+    },
+    "quickLinks": {
+      "title": "Liens Rapides",
+      "home": "Accueil",
+      "products": "Produits",
+      "packages": "Packs",
+      "contact": "Contact"
+    },
+    "categories": {
+      "title": "Catégories",
+      "threads": "Fils",
+      "needles": "Aiguilles",
+      "scissors": "Ciseaux",
+      "machines": "Machines",
+      "rigidFencing": "Clôtures Rigides",
+      "flexibleMesh": "Grillages Souples",
+      "gates": "Portails",
+      "accessories": "Accessoires",
+      "completePacks": "Packs Complets"
+    },
+    "customerService": {
+      "title": "Service Client",
+      "salesConditions": "Conditions de Vente",
+      "deliveryPolicy": "Politique de Livraison",
+      "returnsExchanges": "Retours & Échanges",
+      "faq": "FAQ"
+    },
+    "copyright": "© 2025 Sweet Macaron. Tous droits réservés.",
+    "features": {
+      "securePayment": "Paiement sécurisé",
+      "fastDelivery": "Livraison rapide",
+      "customerSupport": "Service client 7j/7"
+    }
+  },
+  "ConditionsUtilisationPage": {
+    "title": "Conditions d'Utilisation",
+    "lastUpdated": "15 janvier 2025",
+    "section1": {
+      "title": "1. Objet et Champ d'Application",
+      "paragraph1": "Les présentes conditions générales d'utilisation (CGU) ont pour objet de définir les modalités et conditions dans lesquelles les utilisateurs peuvent accéder et utiliser le site web",
+      "website": "www.accessoires-couture.fr",
+      "company": ", édité par la société Accessoires Couture Premium.",
+      "paragraph2": "L'accès au site implique l'acceptation pleine et entière des présentes conditions générales d'utilisation. Ces dernières constituent un contrat entre l'utilisateur et Accessoires Couture Premium."
+    },
+    "section2": {
+      "title": "2. Mentions Légales",
+      "editor": {
+        "title": "Éditeur du site :",
+        "companyName": "Accessoires Couture Premium",
+        "legalForm": "SARL au capital de 50 000 MAD",
+        "siret": "SIRET : 123 456 789 00012",
+        "ape": "Code APE : 4751Z"
+      },
+      "contact": {
+        "title": "Coordonnées :",
+        "address": "123 Rue de la Couture",
+        "customerAddress": "75001 Paris, France",
+        "phone": "Tél : 01 23 45 67 89",
+        "email": "Email : contact@accessoires-couture.fr"
+      }
+    },
+    "section3": {
+      "title": "3. Accès au Site et Services",
+      "paragraph1": "Le site est accessible 24h/24, 7j/7, sauf cas de force majeure, maintenance programmée ou panne. Accessoires Couture Premium met tout en œuvre pour offrir aux utilisateurs un accès continu au site, mais ne saurait être tenu responsable de tout dommage résultant d'une indisponibilité du site.",
+      "subtitle": "3.1 Conditions d'accès",
+      "conditions": {
+        "access": "L'accès au site est gratuit pour la consultation",
+        "account": "Certaines fonctionnalités nécessitent la création d'un compte utilisateur",
+        "truthfulness": "L'utilisateur garantit la véracité des informations fournies",
+        "uniqueAccount": "Un seul compte par personne physique est autorisé"
+      }
+    },
+    "section4": {
+      "title": "4. Propriété Intellectuelle",
+      "paragraph1": "L'ensemble des contenus présents sur le site (textes, images, vidéos, logos, graphismes, etc.) est protégé par les droits de propriété intellectuelle et appartient exclusivement à Accessoires Couture Premium ou à ses partenaires.",
+      "warning": "⚠️ Interdictions :",
+      "prohibitions": {
+        "reproduction": "Reproduction, représentation ou diffusion sans autorisation",
+        "modification": "Modification ou altération du contenu",
+        "commercial": "Usage commercial non autorisé",
+        "scraping": "Extraction de données automatisée (scraping)"
+      }
+    },
+    "section5": {
+      "title": "5. Responsabilités et Obligations",
+      "userObligations": {
+        "title": "5.1 Obligations de l'utilisateur",
+        "intro": "L'utilisateur s'engage à :",
+        "respect": "Respecter les présentes conditions d'utilisation",
+        "order": "Ne pas porter atteinte à l'ordre public et aux bonnes mœurs",
+        "rights": "Ne pas violer les droits de tiers",
+        "confidentiality": "Maintenir la confidentialité de ses identifiants de connexion"
+      },
+      "liability": {
+        "title": "5.2 Limitation de responsabilité",
+        "content": "Accessoires Couture Premium ne saurait être tenu responsable des dommages directs ou indirects causés au matériel de l'utilisateur lors de l'accès au site, résultant de l'utilisation d'un matériel non adapté ou de l'apparition d'un bug ou d'une incompatibilité."
+      }
+    },
+    "section6": {
+      "title": "6. Protection des Données Personnelles",
+      "paragraph1": "Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés, les informations personnelles collectées font l'objet d'un traitement destiné à gérer votre compte client et vos commandes.",
+      "paragraph2": "Pour plus d'informations, consultez notre",
+      "privacyPolicyLink": "Politique de Confidentialité"
+    },
+    "section7": {
+      "title": "7. Modification des CGU",
+      "content": "Accessoires Couture Premium se réserve le droit de modifier à tout moment les présentes conditions générales d'utilisation. Les modifications prennent effet dès leur publication sur le site. Il appartient à l'utilisateur de consulter régulièrement la dernière version."
+    },
+    "section8": {
+      "title": "8. Droit Applicable et Juridiction",
+      "content": "Les présentes conditions générales sont soumises au droit français. En cas de litige, les tribunaux français seront seuls compétents."
+    }
+  },
+  "LegalLayout": {
+    "lastUpdated": "Dernière mise à jour :",
+    "navigation": {
+      "conditionsUtilisation": "Conditions d'Utilisation",
+      "conditionsVente": "Conditions de Vente",
+      "politiqueConfidentialite": "Politique de Confidentialité"
+    },
+    "contact": {
+      "title": "Questions ou Préoccupations ?",
+      "description": "Si vous avez des questions concernant nos conditions légales ou la protection de vos données, n'hésitez pas à nous contacter.",
+      "contactUs": "Nous Contacter",
+      "contactForm": "Formulaire de Contact"
+    }
+  },
+  "ConditionsVentePage": {
+    "metadata": {
+      "title": "Conditions de Vente | Accessoires de Couture Premium",
+      "description": "Découvrez nos conditions générales de vente pour l'achat d'accessoires de couture en ligne."
+    },
+    "title": "Conditions Générales de Vente",
+    "lastUpdated": "15 janvier 2025",
+    "section1": {
+      "title": "1. Champ d'Application",
+      "content": "Les présentes conditions générales de vente (CGV) s'appliquent à toutes les commandes passées sur le site www.accessoires-couture.fr par des consommateurs ou professionnels. Elles régissent les relations contractuelles entre Accessoires Couture Premium et ses clients."
+    },
+    "section2": {
+      "title": "2. Produits et Prix",
+      "productDescription": {
+        "title": "2.1 Description des produits",
+        "content": "Les produits proposés sont ceux qui figurent dans le catalogue publié sur le site. Les photographies et descriptifs sont les plus fidèles possibles mais n'engagent pas la responsabilité de la société en cas de légères différences."
+      },
+      "pricing": {
+        "title": "2.2 Prix",
+        "eurosTTC": "Les prix sont indiqués en euros TTC",
+        "tva": "Ils incluent la TVA française au taux en vigueur",
+        "modification": "Les prix peuvent être modifiés à tout moment mais s'appliquent au moment de la commande",
+        "shipping": "Les frais de livraison sont en supplément et indiqués avant validation"
+      }
+    },
+    "section3": {
+      "title": "3. Commande et Paiement",
+      "orderProcess": {
+        "title": "3.1 Processus de commande",
+        "step1": "Sélection des produits et ajout au panier",
+        "step2": "Vérification du contenu du panier",
+        "step3": "Identification ou création de compte client",
+        "step4": "Choix du mode de livraison",
+        "step5": "Choix du mode de paiement",
+        "step6": "Validation de la commande après acceptation des CGV"
+      },
+      "paymentMethods": {
+        "title": "3.2 Moyens de paiement acceptés",
+        "securePayments": "✅ Paiements sécurisés",
+        "creditCards": "Cartes bancaires (Visa, Mastercard, CB)",
+        "paypal": "PayPal",
+        "bankTransfer": "Virement bancaire (sur devis)",
+        "check": "Chèque (France uniquement)",
+        "security": "🔒 Sécurité",
+        "securityDescription": "Tous les paiements sont sécurisés par cryptage SSL. Nous ne conservons aucune donnée bancaire."
+      }
+    },
+    "section4": {
+      "title": "4. Livraison",
+      "deliveryZones": {
+        "title": "4.1 Zones de livraison",
+        "content": "Nous livrons en France métropolitaine, Corse et DOM-TOM."
+      },
+      "deliveryTable": {
+        "title": "4.2 Délais et tarifs",
+        "tableHeaders": {
+          "method": "Mode de livraison",
+          "delay": "Délai",
+          "price": "Tarif"
+        },
+        "colissimo": "Colissimo",
+        "chronopost": "Chronopost Express",
+        "pointRelais": "Point Relais",
+        "delay23days": "2-3 jours ouvrés",
+        "delay24h": "24h",
+        "delay35days": "3-5 jours ouvrés",
+        "freeShippingNote": "*Livraison gratuite dès {threshold} MAD d'achat en Colissimo"
+      }
+    },
+    "section5": {
+      "title": "5. Droit de Rétractation",
+      "legalDelay": "📋 Délai légal : 14 jours",
+      "legalDescription": "Conformément à l'article L221-18 du Code de la consommation, vous disposez d'un délai de 14 jours à compter de la réception de votre commande pour exercer votre droit de rétractation.",
+      "returnConditions": {
+        "title": "5.1 Conditions de retour",
+        "originalPackaging": "Produits dans leur emballage d'origine",
+        "unused": "Produits non utilisés et en parfait état",
+        "labelsIncluded": "Étiquettes et accessoires inclus",
+        "form": "Formulaire de rétractation complété (optionnel)"
+      }
+    },
+    "section6": {
+      "title": "6. Garanties et Service Après-Vente",
+      "legalWarranty": {
+        "title": "6.1 Garantie légale de conformité",
+        "content": "Tous nos produits bénéficient de la garantie légale de conformité (articles L217-4 et suivants du Code de la consommation) et de la garantie légale des vices cachés (articles 1641 et suivants du Code civil)."
+      },
+      "customerService": {
+        "title": "6.2 Service client",
+        "intro": "Notre équipe est à votre disposition :",
+        "email": "Par email : support@accessoires-couture.fr",
+        "phone": "Par téléphone : 01 23 45 67 89 (9h-18h, lun-ven)",
+        "responseTime": "Délai de réponse : 48h maximum"
+      }
+    },
+    "section7": {
+      "title": "7. Responsabilité et Force Majeure",
+      "content": "La responsabilité d'Accessoires Couture Premium ne saurait être engagée en cas de force majeure ou de circonstances indépendantes de sa volonté. Sont considérés comme cas de force majeure les événements imprévisibles, irrésistibles et extérieurs aux parties."
+    }
+  },
+  "PolitiqueConfidentialitePage": {
+    "title": "Politique de Confidentialité",
+    "lastUpdated": "15 janvier 2025",
+    "intro": {
+      "title": "🔒 Votre vie privée est importante",
+      "description": "Cette politique explique comment nous collectons, utilisons et protégeons vos données personnelles conformément au RGPD et à la loi Informatique et Libertés."
+    },
+    "section1": {
+      "title": "1. Responsable du Traitement",
+      "label": "Responsable du traitement :",
+      "companyName": "Accessoires Couture Premium",
+      "address": "123 Rue de la Couture, 75001 Paris",
+      "email": "Email : dpo@accessoires-couture.fr",
+      "phone": "Téléphone : 01 23 45 67 89"
+    },
+    "section2": {
+      "title": "2. Données Collectées",
+      "identification": {
+        "title": "2.1 Données d'identification",
+        "name": "Nom, prénom",
+        "email": "Adresse email",
+        "customerPhone": "Numéro de téléphone",
+        "postalAddress": "Adresse postale",
+        "birthDate": "Date de naissance (facultative)"
+      },
+      "navigation": {
+        "title": "2.2 Données de navigation",
+        "ipAddress": "Adresse IP",
+        "browserType": "Type de navigateur et appareil",
+        "pagesVisited": "Pages visitées et temps de navigation",
+        "cookies": "Cookies et technologies similaires"
+      },
+      "commercial": {
+        "title": "2.3 Données commerciales",
+        "orderHistory": "Historique des commandes",
+        "productPreferences": "Préférences produits",
+        "shoppingCart": "Panier d'achat",
+        "reviews": "Avis et commentaires"
+      }
+    },
+    "section3": {
+      "title": "3. Finalités du Traitement",
+      "necessary": {
+        "title": "✅ Traitements nécessaires",
+        "orderManagement": "Gestion des commandes",
+        "productDelivery": "Livraison des produits",
+        "billing": "Facturation et comptabilité",
+        "customerService": "Service client",
+        "returnManagement": "Gestion des retours"
+      },
+      "consent": {
+        "title": "📧 Avec votre consentement",
+        "newsletter": "Newsletter et promotions",
+        "recommendations": "Recommandations personnalisées",
+        "marketing": "Études marketing",
+        "advertisingCookies": "Cookies publicitaires",
+        "socialNetworks": "Réseaux sociaux"
+      }
+    },
+    "section4": {
+      "title": "4. Base Légale des Traitements",
+      "tableHeaders": {
+        "treatment": "Traitement",
+        "legalBasis": "Base légale",
+        "duration": "Durée"
+      },
+      "orderManagement": "Gestion des commandes",
+      "contractExecution": "Exécution du contrat",
+      "fiveYears": "5 ans",
+      "directMarketing": "Marketing direct",
+      "consent": "Consentement",
+      "untilWithdrawal": "Jusqu'au retrait",
+      "accounting": "Comptabilité",
+      "legalObligation": "Obligation légale",
+      "tenYears": "20 ans"
+    },
+    "section5": {
+      "title": "5. Cookies et Technologies Similaires",
+      "subtitle": "5.1 Types de cookies utilisés",
+      "essential": {
+        "title": "🍪 Essentiels",
+        "description": "Fonctionnement du site, panier, session utilisateur"
+      },
+      "analytics": {
+        "title": "📊 Analytiques",
+        "description": "Google Analytics, statistiques de visite"
+      },
+      "marketing": {
+        "title": "🎯 Marketing",
+        "description": "Publicité ciblée, réseaux sociaux"
+      },
+      "cookieManagement": "Vous pouvez gérer vos préférences de cookies à tout moment via notre bandeau de cookies ou les paramètres de votre navigateur."
+    },
+    "section6": {
+      "title": "6. Partage des Données",
+      "intro": "Nous ne vendons jamais vos données personnelles. Nous pouvons les partager uniquement dans les cas suivants :",
+      "serviceProviders": {
+        "title": "6.1 Prestataires de services",
+        "carriers": "Transporteurs : La Poste, Chronopost, DPD",
+        "payment": "Paiement : Stripe, PayPal",
+        "email": "Email : Mailchimp, SendGrid",
+        "hosting": "Hébergement : OVH (France)"
+      },
+      "legalObligations": {
+        "title": "6.2 Obligations légales",
+        "description": "Nous pouvons divulguer vos données si la loi l'exige ou pour protéger nos droits, notre propriété ou notre sécurité."
+      }
+    },
+    "section7": {
+      "title": "7. Sécurité des Données",
+      "technical": {
+        "title": "🔐 Mesures techniques",
+        "sslEncryption": "Chiffrement SSL/TLS",
+        "secureServers": "Serveurs sécurisés en France",
+        "regularBackups": "Sauvegardes régulières",
+        "firewall": "Pare-feu et antivirus",
+        "restrictedAccess": "Accès restreint aux données"
+      },
+      "organizational": {
+        "title": "👥 Mesures organisationnelles",
+        "staffTraining": "Formation du personnel",
+        "passwordPolicy": "Politique de mots de passe",
+        "securityAudit": "Audit de sécurité régulier",
+        "breachProcedure": "Procédure de violation",
+        "confidentialityContracts": "Contrats de confidentialité"
+      }
+    },
+    "section8": {
+      "title": "8. Vos Droits RGPD",
+      "intro": "Conformément au RGPD, vous disposez des droits suivants concernant vos données personnelles :",
+      "rights": {
+        "access": {
+          "title": "Droit d'accès",
+          "description": "Connaître les données que nous détenons sur vous"
+        },
+        "rectification": {
+          "title": "Droit de rectification",
+          "description": "Corriger des données inexactes ou incomplètes"
+        },
+        "erasure": {
+          "title": "Droit d'effacement",
+          "description": "Supprimer vos données dans certaines conditions"
+        },
+        "restriction": {
+          "title": "Droit de limitation",
+          "description": "Limiter le traitement de vos données"
+        },
+        "portability": {
+          "title": "Droit à la portabilité",
+          "description": "Récupérer vos données dans un format exploitable"
+        },
+        "objection": {
+          "title": "Droit d'opposition",
+          "description": "Vous opposer à certains traitements"
+        },
+        "automaticDecision": {
+          "title": "Décision automatisée",
+          "description": "Ne pas faire l'objet de décisions automatisées"
+        },
+        "consentWithdrawal": {
+          "title": "Retrait du consentement",
+          "description": "Retirer votre consentement à tout moment"
+        }
+      },
+      "exercise": {
+        "title": "📧 Comment exercer vos droits ?",
+        "intro": "Pour exercer l'un de ces droits, contactez-nous :",
+        "email": "Email : dpo@accessoires-couture.fr",
+        "mail": "Courrier : DPO, 123 Rue de la Couture, 75001 Paris",
+        "responseTime": "Délai de réponse : 1 mois maximum"
+      }
+    },
+    "section9": {
+      "title": "9. Transferts Internationaux",
+      "intro": "Vos données sont principalement traitées en France. Certains de nos prestataires peuvent être situés hors de l'Union européenne. Dans ce cas, nous nous assurons que :",
+      "adequateLevel": "Le niveau de protection est adéquat (décision d'adéquation de la Commission européenne)",
+      "appropriateGuarantees": "Des garanties appropriées sont mises en place (clauses contractuelles types)",
+      "explicitConsent": "Votre consentement explicite est obtenu si nécessaire"
+    },
+    "section10": {
+      "title": "10. Mineurs",
+      "content": "Notre site ne s'adresse pas aux mineurs de moins de 16 ans. Nous ne collectons pas sciemment de données personnelles de mineurs de moins de 16 ans sans le consentement des parents ou tuteurs légaux."
+    },
+    "section11": {
+      "title": "11. Modifications",
+      "content": "Cette politique de confidentialité peut être modifiée pour refléter les changements dans nos pratiques ou la législation. Les modifications importantes vous seront communiquées par email ou via une notification sur le site."
+    },
+    "section12": {
+      "title": "12. Réclamations",
+      "authority": {
+        "title": "🛡️ Autorité de contrôle",
+        "intro": "Si vous estimez que vos droits ne sont pas respectés, vous pouvez déposer une réclamation auprès de :",
+        "name": "CNIL (Commission Nationale de l'Informatique et des Libertés)",
+        "address": "3 Place de Fontenoy, TSA 80715",
+        "customerAddress": "75334 Paris Cedex 07",
+        "phone": "Tél : 01 53 73 22 22",
+        "website": "Site web : www.cnil.fr"
+      }
+    }
+  },
+  "CheckoutPage": {
+    "header": {
+      "title": "Finaliser ma commande",
+      "subtitle": "Quelques informations et c'est parti !"
+    },
+    "products": {
+      "professionalScissors": "Ciseaux de couture professionnels",
+      "coloredThreadSpools": "Bobines de fil coloré (x12)",
+      "coloredPins": "Épingles à tête colorée (x100)",
+      "flexibleTape": "Mètre ruban flexible"
+    },
+    "categories": {
+      "tools": "Outils",
+      "threads": "Fils",
+      "pins": "Épingles",
+      "measurement": "Mesure"
+    },
+    "checkout": {
+      "success": "Merci {customerName} ! Votre commande de {total} MAD sera livrée à {customerAddress}.",
+      "emptyCart": "Le panier est vide",
+      "error": "Erreur lors de l'enregistrement de la commande",
+      "errorTitle": "Erreur",
+      "successTitle": "Commande confirmée !",
+      "successMessage": "Votre commande a été enregistrée avec succès.",
+      "retry": "Réessayer"
+    },
+    "cart": {
+      "freeShipping": "Livraison gratuite dès {FREE_SHIPPING_THRESHOLD} MAD",
+      "shippingCost": "Frais de livraison"
+    }
+  },
+  "thankYou": {
+    "title": "Merci pour votre commande !",
+    "subtitle": "Votre commande a été enregistrée avec succès",
+    "orderConfirmed": "Confirmation de commande",
+    "orderMessage": "Nous avons bien reçu votre commande. Merci de votre confiance en Sweet Macaron. Nous préparons vos articles avec le plus grand soin. ",
+    "phoneCallTitle": "Confirmation téléphonique",
+    "phoneCallMessage": "Notre équipe vous contactera par téléphone dans les prochaines heures pour confirmer les détails de votre commande et répondre à toutes vos questions.",
+    "timeframe": "Délai : quelques heures",
+    "nextStepsTitle": "Prochaines étapes",
+    "step1": "Vous recevrez un e-mail de confirmation",
+    "step2": "Notre équipe vous appellera pour confirmer votre commande",
+    "step3": "Votre commande sera préparée et expédiée",
+    "backButton": "Retour à l'accueil"
+  },
+  "CheckoutForm": {
+    "header": {
+      "title": "Vos informations",
+      "subtitle": "Rapide et simple, 3 champs seulement !"
+    },
+    "fields": {
+      "customerName": {
+        "label": "Nom complet *",
+        "placeholder": "Prénom et nom"
+      },
+      "customerAddress": {
+        "label": "Adresse *",
+        "placeholder": "Votre Adresse de livraison"
+      },
+      "customerPhone": {
+        "label": "Téléphone *",
+        "placeholder": "06 12 34 56 78"
+      }
+    },
+    "validation": {
+      "customerName": {
+        "required": "Le nom du client est requis",
+        "minLength": "Le nom doit contenir au moins 2 caractères"
+      },
+      "customerAddress": {
+        "required": "La Adresse est requise",
+        "minLength": "Le nom de la Adresse doit contenir au moins 2 caractères"
+      },
+      "customerPhone": {
+        "required": "Le numéro de téléphone est requis",
+        "invalid": "Format de téléphone invalide (ex: 06 12 34 56 78)"
+      }
+    },
+    "delivery": {
+      "title": "Livraison",
+      "description": "Votre commande sera livrée à {customerAddress} sous 2-3 jours ouvrés. Nous vous contacterons au {customerPhone} pour organiser la livraison.",
+      "placeholderCity": "[Votre Adresse]",
+      "placeholderPhone": "[Votre numéro]"
+    },
+    "summary": {
+      "title": "Récapitulatif",
+      "total": "Total à payer :"
+    },
+    "button": {
+      "confirm": "Confirmer ma commande - {total} MAD",
+      "processing": "Traitement en cours..."
+    },
+    "security": {
+      "message": "Vos informations sont sécurisées et ne seront pas partagées"
+    }
+  },
+  "CartSummary": {
+    "header": {
+      "title": "Mon panier",
+      "itemCount": "{count} article",
+      "itemCountPlural": "{count} articles"
+    },
+    "actions": {
+      "removeItem": "Supprimer l'article",
+      "apply": "Appliquer"
+    },
+    "promoCode": {
+      "title": "Code promo",
+      "placeholder": "Entrez votre code"
+    },
+    "pricing": {
+      "subtotal": "Sous-total ({count} articles)",
+      "shipping": "Frais de livraison",
+      "free": "Gratuit !",
+      "total": "Total"
+    },
+    "shipping": {
+      "freeShippingAchieved": "🎉 Félicitations ! Vous bénéficiez de la livraison gratuite",
+      "freeShippingRemaining": "Plus que {amount} MAD pour la livraison gratuite !"
+    },
+    "help": {
+      "question": "Une question sur votre commande ?",
+      "phone": "+212 670366581"
+    }
+  },
+  "ContactPage": {
+    "metadata": {
+      "title": "Contact - CoutureShop | Accessoires de Couture & Mercerie",
+      "description": "Contactez CoutureShop pour tous vos besoins en accessoires de couture. Livraison rapide, conseils d'experts, support 7j/7. Votre mercerie en ligne de confiance.",
+      "keywords": "contact couture, accessoires couture, mercerie en ligne, fournitures couture, boutique couture maroc"
+    },
+    "hero": {
+      "title": "Contactez-nous",
+      "subtitle": "Notre équipe passionnée est là pour vous accompagner dans tous vos projets de couture. Conseils d'experts, produits de qualité et service client exceptionnel."
+    },
+    "contactInfos": {
+      "customerService": {
+        "title": "Service Client",
+        "phone": "+212 670366581",
+        "schedule1": "Lun-Ven: 09h00-18h00",
+        "schedule2": "Sam: 10h00-17h00"
+      },
+      "email": {
+        "title": "Email",
+        "address": "Denon_taha@hotmail.fr",
+        "responseTime": "Réponse sous 1h"
+      },
+      "showroom": {
+        "title": "Showroom",
+        "address1": "rue 4 numero 2",
+        "address2": "quartier el bassatine",
+        "customerAddress": "Meknes"
+      }
+    },
+    "OpeningHours": {
+      "title": "Horaires d'Ouverture",
+      "days": {
+        "monday": "Lundi",
+        "tuesday": "Mardi",
+        "wednesday": "Mercredi",
+        "thursday": "Jeudi",
+        "friday": "Vendredi",
+        "saturday": "Samedi",
+        "sunday": "Dimanche"
+      },
+      "hours": {
+        "weekdays": "08:00 - 18:00",
+        "saturday": "09:00 - 16:00",
+        "closed": "Fermé"
+      },
+      "note": {
+        "label": "Note :",
+        "text": "Nous sommes également disponibles sur rendez-vous en dehors de ces horaires."
+      }
+    },
+    "FAQSection": {
+      "loading": "chargement",
+      "header": {
+        "title": "Questions Fréquemment Posées",
+        "subtitle": "Trouvez rapidement les réponses à vos questions les plus courantes sur nos services de couture au Maroc."
+      },
+      "contact": {
+        "title": "Vous ne trouvez pas votre réponse ?",
+        "subtitle": "Notre équipe d'experts est là pour répondre à toutes vos questions personnalisées.",
+        "callButton": "Appelez-nous",
+        "emailButton": "Envoyez un email"
+      }
+    }
+  },
+  "WhyChooseUs": {
+    "title": "Pourquoi choisir Sweet Macaron ?",
+    "features": {
+      "expressDelivery": {
+        "title": "Livraison Express",
+        "description": "Expédition sous 24h partout au Maroc"
+      },
+      "premiumQuality": {
+        "title": "Qualité Premium",
+        "description": "Accessoires sélectionnés par nos experts"
+      },
+      "expertise": {
+        "title": "20 ans d'Expertise",
+        "description": "Spécialistes en fournitures de couture"
+      },
+      "dedicatedSupport": {
+        "title": "Support Dédié",
+        "description": "Conseils personnalisés 7j/7"
+      }
+    }
+  },
+  "ProductCard": {
+    "labels": {
+      "category": "Catégorie:",
+      "material": "Matériau:",
+      "height": "Hauteur:",
+      "color": "Couleur:"
+    },
+    "badges": {
+      "new": "Nouveau",
+      "sale": "Promo",
+      "outOfStock": "Rupture"
+    },
+    "buttons": {
+      "addToCart": "Ajouter au panier",
+      "unavailable": "Indisponible",
+      "confirm": "Confirmer",
+      "cancel": "Annuler"
+    },
+    "stats": {
+      "views": "{count} vues",
+      "timeAgo": "Il y a {hours}h"
+    },
+    "features": {
+      "expressDelivery": "Livraison Express",
+      "warranty": "Garantie 2 ans",
+      "inStock": "En stock",
+      "outOfStock": "Rupture de stock"
+    },
+    "discounts": {
+      "percentage": "🔥 Réduction {value}%",
+      "buyXGetY": "🎁 Achetez {buyQuantity}, obtenez {getQuantity} gratuit",
+      "percentageShort": "🔥 -{value}%",
+      "buyXGetYShort": "🎁 {buyQuantity}+{getQuantity} gratuit"
+    },
+    "modal": {
+      "title": "Personnalisez votre choix",
+      "subtitle": "Sélectionnez vos préférences",
+      "selectValueError": "Sélectionnez une valeur pour chaque propriété"
+    }
+  },
+  "SideCart": {
+    "header": {
+      "title": "Mon Panier",
+      "itemCount": "{count} article",
+      "itemCountPlural": "{count} articles"
+    },
+    "freeShipping": {
+      "label": "Livraison gratuite",
+      "remaining": "{amount} DH restants",
+      "progressText": "Ajoutez {amount} DH pour bénéficier de la livraison gratuite !",
+      "achieved": "🎉 Livraison gratuite activée !",
+      "achievedSubtext": "Votre commande sera livrée gratuitement.",
+      "included": "✓ Livraison gratuite incluse",
+      "cost": "Frais de livraison: 30 DH"
+    },
+    "emptyCart": {
+      "title": "Votre panier est vide",
+      "subtitle": "Découvrez nos magnifiques accessoires de couture et commencez vos créations !"
+    },
+    "productDetails": {
+      "color": "Couleur:",
+      "size": "Taille:"
+    },
+    "total": "Total:",
+    "buttons": {
+      "validateOrder": "Valider la commande",
+      "continueShopping": "Continuer mes achats"
+    }
+  },
+  "PacksPage": {
+    "hero": {
+      "title": "Nos Packs Exclusifs",
+      "subtitle": "Économisez jusqu'à 30% en achetant nos packs de produits soigneusement sélectionnés"
+    },
+    "grid": {
+      "results": "{count} pack trouvé",
+      "resultsPlural": "{count} packs trouvés"
+    },
+    "card": {
+      "productsIncluded": "{count} produit inclus",
+      "productsIncludedPlural": "{count} produits inclus",
+      "viewDetails": "Voir détails",
+      "addToCart": "Ajouter au panier",
+      "errorLoadingProducts": "Impossible de charger les détails des produits du pack",
+      "errorAddingToCart": "Erreur lors de l'ajout du pack au panier"
+    },
+    "filters": {
+      "title": "Filtres",
+      "reset": "Réinitialiser",
+      "search": {
+        "label": "Rechercher",
+        "placeholder": "Nom du pack..."
+      },
+      "sort": {
+        "label": "Trier par",
+        "newest": "Plus récents",
+        "priceAsc": "Prix croissant",
+        "priceDesc": "Prix décroissant",
+        "discount": "Meilleure réduction"
+      },
+      "priceRange": {
+        "label": "Fourchette de prix (MAD)",
+        "min": "Min",
+        "max": "Max"
+      },
+      "activeFilters": {
+        "title": "Filtres actifs :",
+        "search": "Recherche : '{query}'",
+        "sort": "Tri : {sortOption}",
+        "price": "Prix : {min} - {max} MAD"
+      }
+    },
+    "emptyState": {
+      "title": "Aucun pack trouvé",
+      "withSearch": "Aucun pack ne correspond à votre recherche '{query}'. Essayez avec d'autres mots-clés.",
+      "withoutSearch": "Aucun pack ne correspond à vos critères de recherche. Essayez de modifier vos filtres.",
+      "resetFilters": "Réinitialiser les filtres"
+    },
+    "details": {
+      "productsIncluded": "{count} produit inclus",
+      "productsIncludedPlural": "{count} produits inclus",
+      "normalPrice": "Prix normal",
+      "packPrice": "Prix du pack",
+      "youSave": "Vous économisez {amount} MAD !",
+      "quantityInCart": "Quantité dans le panier",
+      "inCart": "✓ Dans le panier",
+      "remove": "Retirer",
+      "addToCart": "Ajouter au panier",
+      "productsIncludedTitle": "Produits inclus dans ce pack",
+      "totalItems": "Total d'articles",
+      "totalNormalPrice": "Prix total normal",
+      "yourPrice": "Votre prix",
+      "unitPrice": "Prix unitaire:",
+      "subtotal": "Sous-total:",
+      "outOfStock": "Rupture de stock",
+      "viewDetails": "Voir détails",
+      "productId": "Produit ID:",
+      "quantity": "Quantité:"
+    }
+  },
+  "404": {
+    "title": "Oups !",
+    "subtitle": "Page introuvable",
+    "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "button": {
+      "home": "Retour à l'accueil"
+    }
+  },
+  "ShopPage": {
+    "ProductFilter": {
+      "title": "Filtres",
+      "reset": "Réinitialiser",
+      "sections": {
+        "price": {
+          "title": "Prix (DH)",
+          "min": "Min",
+          "max": "Max"
+        },
+        "characteristics": { "title": "caractéristiques" },
+
+        "categories": {
+          "title": "Catégories"
+        },
+        "material": {
+          "title": "Matériau"
+        },
+        "height": {
+          "title": "Hauteur"
+        },
+        "color": {
+          "title": "Couleur"
+        },
+        "options": {
+          "title": "Options",
+          "isNew": "nouveau",
+          "inStock": "En stock uniquement",
+          "onSale": "En promotion"
+        },
+        "rating": {
+          "title": "Note minimale"
+        }
+      },
+      "activeFilters": "Filtres actifs:",
+      "close": "Fermer"
+    },
+    "ProductSorter": {
+      "title": "Notre Boutique",
+      "productsFound": {
+        "single": "{count} produit trouvé",
+        "plural": "{count} produits trouvés"
+      },
+      "filters": "Filtres",
+      "sortBy": "Trier par:",
+      "sortOptions": {
+        "nameAsc": "Nom A-Z",
+        "nameDesc": "Nom Z-A",
+        "priceAsc": "Prix croissant",
+        "priceDesc": "Prix décroissant",
+        "ratingDesc": "Mieux notés",
+        "newest": "Plus récents"
+      },
+      "viewMode": {
+        "label": "Vue:",
+        "grid": "Vue grille",
+        "list": "Vue liste"
+      },
+      "pagination": {
+        "previous": "Précédent",
+        "previousShort": "Préc.",
+        "next": "Suivant",
+        "nextShort": "Suiv."
+      }
+    },
+    "ShopContent": {
+      "activeFilters": "Filtres actifs:",
+      "clearAll": "Tout effacer",
+      "noProductsFound": {
+        "title": "Aucun produit trouvé",
+        "description": "Essayez de modifier vos filtres ou votre recherche",
+        "resetButton": "Réinitialiser les filtres"
+      }
+    }
+  }
+}
