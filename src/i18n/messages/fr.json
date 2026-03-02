@@ -11,7 +11,7 @@
     },
     "CategoriesSection": {
       "title": "Nos Catégories",
-      "subtitle": "Découvrez notre gamme complète de couture et accessoires adaptés à tous vos besoins",
+      "subtitle": "Découvrez nos collections de macarons gourmands, coffrets cadeaux et douceurs pour toutes vos envies sucrées.",
       "productCount": "{count} produits"
     },
     "FeaturedProductsSection": {
@@ -667,19 +667,19 @@
     "features": {
       "expressDelivery": {
         "title": "Livraison Express",
-        "description": "Expédition sous 24h partout au Maroc"
+        "description": "Livraison de macarons frais partout au Maroc en 24h"
       },
       "premiumQuality": {
         "title": "Qualité Premium",
-        "description": "Accessoires sélectionnés par nos experts"
+        "description": "Macarons artisanaux préparés avec des ingrédients d’exception"
       },
       "expertise": {
-        "title": "20 ans d'Expertise",
-        "description": "Spécialistes en fournitures de couture"
+        "title": "7 ans d'Expertise",
+        "description": "Pâtissiers spécialisés dans l’art du macaron"
       },
       "dedicatedSupport": {
         "title": "Support Dédié",
-        "description": "Conseils personnalisés 7j/7"
+        "description": "Service client gourmand et réactif 7j/7"
       }
     }
   },

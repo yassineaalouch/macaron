@@ -76,8 +76,8 @@ const CategoriesSection = async () => {
     {
       id: "1",
       name: {
-        fr: "Tissus",
-        ar: "أقمشة"
+        fr: "Coffrets de macarons",
+        ar: "علب الماكرون"
       },
       image:
         "https://www.tissus-price.com/img/cms/IMG%20BLOG/tissu-burlington-pas-cher.jpg",
@@ -87,8 +87,8 @@ const CategoriesSection = async () => {
     {
       id: "2",
       name: {
-        fr: "Fils et Aiguilles",
-        ar: "خيوط وإبر"
+        fr: "Macarons individuels",
+        ar: "ماكرون فردي"
       },
       image:
         "https://www.lerobert.com/sites/default/files/scald_image/dico-en-ligne-le-robert-de-fil-en-aiguille-marcelle-ratafia.jpg",
@@ -98,8 +98,8 @@ const CategoriesSection = async () => {
     {
       id: "3",
       name: {
-        fr: "Boutons et Fermetures",
-        ar: "أزرار وإغلاق"
+        fr: "Macarons personnalisés",
+        ar: "ماكرون حسب الطلب"
       },
       image:
         "https://img.leboncoin.fr/api/v1/lbcpb1/images/1b/9a/d2/1b9ad2c9d7b8c8841a1f0e84104f648308aa6d60.jpg?rule=ad-large",
@@ -109,8 +109,8 @@ const CategoriesSection = async () => {
     {
       id: "4",
       name: {
-        fr: "Accessoires de Couture",
-        ar: "إكسسوارات الخياطة"
+        fr: "Éditions spéciales & saisons",
+        ar: "إصدارات موسمية خاصة"
       },
       image:
         "https://www.coutureenfant.fr/wp-content/uploads/2017/05/materiel-de-couture.jpg",
@@ -162,7 +162,7 @@ const CategoriesSection = async () => {
               href={category.url || "/shop"}
               className="group cursor-pointer"
             >
-              <div className="relative overflow-hidden rounded-lg shadow-md h-64">
+              <div className="relative overflow-hidden  shadow-md h-64">
                 <Image
                   src={category.image}
                   alt={category.name[locale]}
@@ -511,7 +511,7 @@ const PromoBannerSection = async () => {
     <section className="py-8 ">
       <div className="container mx-auto px-4">
         <Link href={banner.link} className="block group">
-          <div className="relative w-full h-64 md:h-80 lg:h-96 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
+          <div className="relative w-full h-64 md:h-80 lg:h-96 overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
             {/* Image Desktop - visible sur md et plus (>= 768px) */}
             {desktopImage && (
               <Image
@@ -562,7 +562,7 @@ const HomeVideoSection = async () => {
     return (
       <section className="py-12">
         <div className="container mx-auto px-4">
-          <div className="relative w-full max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-2xl aspect-video bg-black">
+          <div className="relative w-full max-w-5xl mx-auto overflow-hidden shadow-2xl aspect-video bg-black">
             <iframe
               src={embedUrl}
               title="Vidéo de présentation"
@@ -583,7 +583,7 @@ const HomeVideoSection = async () => {
     return (
       <section className="py-12 bg-paletteCream">
         <div className="container mx-auto px-4">
-          <div className="relative w-full max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-2xl aspect-video bg-black">
+          <div className="relative w-full max-w-5xl mx-auto overflow-hidden shadow-2xl aspect-video bg-black">
             <video
               src={config.videoUrl}
               className="w-full h-full"
