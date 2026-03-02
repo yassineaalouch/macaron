@@ -15,19 +15,19 @@ export async function GET(req: NextRequest) {
   let bucketName = ""
   
   try {
-    // Vérifier que les credentials sont présents (R2 utilise les mêmes noms de variables)
-    if (!process.env.AWS_ACCESS_KEY_ID || !process.env.AWS_SECRET_ACCESS_KEY) {
+    // Vérifier que les credentials sont présents (R2 utilise des variables préfixées)
+    if (!process.env.MACARONEES_AWS_ACCESS_KEY_ID || !process.env.MACARONEES_AWS_SECRET_ACCESS_KEY) {
       return NextResponse.json(
         {
           error: "Variables d'environnement manquantes",
-          message: "AWS_ACCESS_KEY_ID et AWS_SECRET_ACCESS_KEY (credentials R2) sont requis"
+          message: "MACARONEES_AWS_ACCESS_KEY_ID et MACARONEES_AWS_SECRET_ACCESS_KEY (credentials R2) sont requis"
         },
         { status: 400 }
       )
     }
 
-    bucketName = process.env.AWS_BUCKET_NAME || "macaron"
-    const region = process.env.AWS_REGION?.trim() || "auto"
+    bucketName = process.env.MACARONEES_AWS_BUCKET_NAME || "macaron"
+    const region = process.env.MACARONEES_AWS_REGION?.trim() || "auto"
     const r2Endpoint = process.env.R2_ENDPOINT?.trim()
 
     // Configuration CORS (S3-compatible, utilisée par R2)
@@ -57,8 +57,8 @@ export async function GET(req: NextRequest) {
       endpoint: r2Endpoint || undefined,
       forcePathStyle: !!r2Endpoint,
       credentials: {
-        accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-        secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
+        accessKeyId: process.env.MACARONEES_AWS_ACCESS_KEY_ID,
+        secretAccessKey: process.env.MACARONEES_AWS_SECRET_ACCESS_KEY
       }
     })
 
@@ -85,7 +85,7 @@ export async function GET(req: NextRequest) {
     if (error.name === "AccessDenied") {
       errorMessage = "Permissions insuffisantes. Vérifiez que les credentials R2 ont la permission s3:PutBucketCors"
     } else if (error.name === "NoSuchBucket") {
-      errorMessage = `Le bucket ${bucketName || process.env.AWS_BUCKET_NAME || "non défini"} n'existe pas ou n'est pas accessible`
+      errorMessage = `Le bucket ${bucketName || process.env.MACARONEES_AWS_BUCKET_NAME || "non défini"} n'existe pas ou n'est pas accessible`
     } else {
       errorMessage = error.message || errorMessage
     }
@@ -94,7 +94,7 @@ export async function GET(req: NextRequest) {
       { 
         error: errorMessage,
         details: error.name,
-        bucket: bucketName || process.env.AWS_BUCKET_NAME || "non défini"
+        bucket: bucketName || process.env.MACARONEES_AWS_BUCKET_NAME || "non défini"
       },
       { status: 500 }
     )

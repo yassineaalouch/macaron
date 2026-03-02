@@ -10,12 +10,12 @@ import sharp from "sharp"
 // Cloudflare R2 (S3-compatible) : endpoint personnalisé et path-style requis
 const r2Endpoint = process.env.R2_ENDPOINT?.trim()
 const s3 = new S3Client({
-  region: process.env.AWS_REGION!.trim(),
+  region: process.env.MACARONEES_AWS_REGION!.trim(),
   endpoint: r2Endpoint || undefined,
   forcePathStyle: !!r2Endpoint,
   credentials: {
-    accessKeyId: process.env.AWS_ACCESS_KEY_ID!,
-    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY!
+    accessKeyId: process.env.MACARONEES_AWS_ACCESS_KEY_ID!,
+    secretAccessKey: process.env.MACARONEES_AWS_SECRET_ACCESS_KEY!
   }
 })
 
@@ -28,7 +28,7 @@ function getPublicFileUrl(bucket: string, encodedFileName: string): string {
   if (r2Endpoint) {
     return `${r2Endpoint}/${bucket}/${encodedFileName}`
   }
-  const region = process.env.AWS_REGION?.trim()
+  const region = process.env.MACARONEES_AWS_REGION?.trim()
   return `https://${bucket}.s3.${region}.amazonaws.com/${encodedFileName}`
 }
 
@@ -49,7 +49,7 @@ export async function uploadFileToS3(file: File): Promise<string> {
     .replace(/\.[^/.]+$/, "")
     .replace(/\s+/g, "_")}.webp`
 
-  const bucket = process.env.AWS_BUCKET_NAME!
+  const bucket = process.env.MACARONEES_AWS_BUCKET_NAME!
 
   const uploadParams = {
     Bucket: bucket,
@@ -81,7 +81,7 @@ export async function uploadMultipleFilesToS3(
 }
 export async function deleteFileFromS3(fileName: string) {
   const params = {
-    Bucket: process.env.AWS_BUCKET_NAME!,
+    Bucket: process.env.MACARONEES_AWS_BUCKET_NAME!,
     Key: fileName
   }
 
@@ -155,8 +155,8 @@ export async function generatePresignedUrl(
   contentType: string = "image/webp",
   expiresIn: number = 300
 ): Promise<{ presignedUrl: string; fileUrl: string }> {
-  const bucket = process.env.AWS_BUCKET_NAME!
-  const region = process.env.AWS_REGION!.trim()
+  const bucket = process.env.MACARONEES_AWS_BUCKET_NAME!
+  const region = process.env.MACARONEES_AWS_REGION!.trim()
 
   const command = new PutObjectCommand({
     Bucket: bucket,

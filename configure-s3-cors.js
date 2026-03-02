@@ -65,19 +65,24 @@ loadEnvFile();
 
 const r2Endpoint = process.env.R2_ENDPOINT?.trim();
 const s3 = new S3Client({
-  region: process.env.AWS_REGION?.trim() || "auto",
+  region: process.env.MACARONEES_AWS_REGION?.trim() || "auto",
   endpoint: r2Endpoint || undefined,
   forcePathStyle: !!r2Endpoint,
   credentials: {
-    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
+    accessKeyId: process.env.MACARONEES_AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.MACARONEES_AWS_SECRET_ACCESS_KEY
   }
 });
 
 async function configureCORS() {
   try {
     // Vérifier que toutes les variables nécessaires sont présentes
-    const requiredVars = ["AWS_ACCESS_KEY_ID", "AWS_SECRET_ACCESS_KEY", "AWS_REGION", "AWS_BUCKET_NAME"];
+    const requiredVars = [
+      "MACARONEES_AWS_ACCESS_KEY_ID",
+      "MACARONEES_AWS_SECRET_ACCESS_KEY",
+      "MACARONEES_AWS_REGION",
+      "MACARONEES_AWS_BUCKET_NAME"
+    ];
     const missingVars = requiredVars.filter((varName) => !process.env[varName]);
     
     if (missingVars.length > 0) {
@@ -86,19 +91,19 @@ async function configureCORS() {
       process.exit(1);
     }
 
-    console.log("🔧 Configuration CORS pour le bucket:", process.env.AWS_BUCKET_NAME);
-    console.log("📍 Région:", process.env.AWS_REGION);
+    console.log("🔧 Configuration CORS pour le bucket:", process.env.MACARONEES_AWS_BUCKET_NAME);
+    console.log("📍 Région:", process.env.MACARONEES_AWS_REGION);
 
     const corsConfigPath = path.join(__dirname, "s3-cors-config.json");
     const corsConfig = JSON.parse(fs.readFileSync(corsConfigPath, "utf8"));
 
     const command = new PutBucketCorsCommand({
-      Bucket: process.env.AWS_BUCKET_NAME,
+      Bucket: process.env.MACARONEES_AWS_BUCKET_NAME,
       CORSConfiguration: corsConfig
     });
 
     await s3.send(command);
-    console.log("✅ Configuration CORS appliquée avec succès sur le bucket:", process.env.AWS_BUCKET_NAME);
+    console.log("✅ Configuration CORS appliquée avec succès sur le bucket:", process.env.MACARONEES_AWS_BUCKET_NAME);
     console.log("🌐 Origines autorisées:", corsConfig.CORSRules[0].AllowedOrigins.join(", "));
   } catch (error) {
     console.error("❌ Erreur lors de la configuration CORS:", error.message);
