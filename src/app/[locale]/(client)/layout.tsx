@@ -41,7 +41,7 @@ export const metadata: Metadata = {
         alt: "Plateau de macarons colorés Sweet Macaron"
       }
     ]
-  },
+  }, 
   twitter: {
     card: "summary_large_image",
     title: "Sweet Macaron – Macarons & pâtisseries fines",
