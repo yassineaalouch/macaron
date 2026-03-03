@@ -1,16 +1,3 @@
-/**
- * Script pour configurer CORS sur le bucket S3 de PRODUCTION
- * 
- * Exécuter avec: node configure-s3-cors-production.js
- * 
- * Ce script configure CORS sur le bucket R2 (AWS_BUCKET_NAME).
- *
- * Assurez-vous d'avoir les variables d'environnement configurées:
- * - AWS_ACCESS_KEY_ID (credentials R2)
- * - AWS_SECRET_ACCESS_KEY (credentials R2)
- * - AWS_BUCKET_NAME (ex: macaron)
- * - R2_ENDPOINT (endpoint Cloudflare R2)
- */
 
 const { S3Client, PutBucketCorsCommand } = require("@aws-sdk/client-s3");
 const fs = require("fs");
