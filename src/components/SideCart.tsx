@@ -179,7 +179,7 @@ const SideCart: React.FC<SideCartProps> = ({
                 animate={{ height: "auto", opacity: 1 }}
                 exit={{ height: 0, opacity: 0 }}
                 transition={{ duration: 0.3 }}
-                className="bg-secondColor p-3 border-b border-firstColor shadow-sm"
+                className=" p-3 border-b border-firstColor shadow-sm"
               >
                 <div className="mb-2">
                   <div className="flex items-center justify-between text-xs">
@@ -188,13 +188,13 @@ const SideCart: React.FC<SideCartProps> = ({
                       animate={{ x: 0, opacity: 1 }}
                       className="text-gray-700 flex items-center font-medium"
                     >
-                      <Truck size={14} className="text-firstColor mr-1" />
+                      <Truck size={14} className="text-black mr-1" />
                       {t("freeShipping.label")}
                     </motion.span>
                     <motion.span
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="text-firstColor font-bold text-sm"
+                      className="text-black font-bold text-sm"
                     >
                       {remainingForFreeShipping.toFixed(2)} MAD
                     </motion.span>
