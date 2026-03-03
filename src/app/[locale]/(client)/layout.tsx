@@ -8,7 +8,7 @@ import { CartProvider } from "../../context/CartContext"
 import { ReactNode, ReactElement } from "react"
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://sweet-macaron.ma"), // mets ici ton vrai domaine
+  metadataBase: new URL("https://macaroness.netlify.app"), // mets ici ton vrai domaine
   title: "Sweet Macaron – Macarons & pâtisseries fines",
   description:
     "Sweet Macaron, spécialiste des macarons et pâtisseries fines au Maroc. Recettes artisanales, ingrédients de qualité, commandes personnalisées pour vos événements et livraison rapide.",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     title: "Sweet Macaron – Macarons & pâtisseries fines",
     description:
       "Découvrez nos macarons artisanaux et pâtisseries fines, préparés avec soin pour toutes vos occasions.",
-    url: "https://sweet-macaron.ma",
+    url: "https://macaroness.netlify.app",
     siteName: "Sweet Macaron",
     type: "website",
     locale: "fr_FR",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     title: "Sweet Macaron – Macarons & pâtisseries fines",
     description:
       "Macarons colorés, pâtisseries élégantes et livraison pour toutes vos occasions.",
-    images: ["/puck.jpg"] // même image que ci‑dessus
+    images: ["/puck.jpg"] 
   }
 }
 
