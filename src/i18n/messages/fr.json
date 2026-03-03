@@ -683,6 +683,20 @@
       }
     }
   },
+  "NotFound": {
+    "title": "Page introuvable chez Sweet Macaron",
+    "description": "Oups ! Il semble que la page que vous cherchez n'existe pas ou a été déplacée. Peut-être cherchiez-vous nos délicieux coffrets de macarons et douceurs sucrées ?",
+    "buttons": {
+      "back": "Page précédente",
+      "home": "Retour à l'accueil",
+      "shop": "Voir la boutique"
+    },
+    "help": {
+      "title": "Besoin d'aide pour commander vos macarons ?",
+      "phoneLabel": "Contactez notre équipe au",
+      "emailLabel": "ou par email à"
+    }
+  },
   "ProductCard": {
     "labels": {
       "category": "Catégorie:",
